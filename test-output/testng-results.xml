@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13100" started-at="2022-03-21T11:00:50Z" finished-at="2022-03-21T11:01:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13100" started-at="2022-03-21T11:00:50Z" finished-at="2022-03-21T11:01:04Z">
+      <class name="test1.assignment3_with_pojo">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext)[pri:0, instance:test1.assignment3_with_pojo@7e0babb1]" name="createUser" duration-ms="5905" started-at="2022-03-21T16:30:50Z" finished-at="2022-03-21T16:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4cb2c100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="login(org.testng.ITestContext)[pri:0, instance:test1.assignment3_with_pojo@7e0babb1]" name="login" duration-ms="1830" started-at="2022-03-21T16:30:56Z" depends-on-methods="test1.assignment3_with_pojo.createUser" finished-at="2022-03-21T16:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4cb2c100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="edit(org.testng.ITestContext)[pri:0, instance:test1.assignment3_with_pojo@7e0babb1]" name="edit" duration-ms="1860" started-at="2022-03-21T16:30:58Z" depends-on-methods="test1.assignment3_with_pojo.login" finished-at="2022-03-21T16:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4cb2c100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:test1.assignment3_with_pojo@7e0babb1]" name="logout" duration-ms="1761" started-at="2022-03-21T16:31:00Z" depends-on-methods="test1.assignment3_with_pojo.edit" finished-at="2022-03-21T16:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:test1.assignment3_with_pojo@7e0babb1]" name="delete" duration-ms="1722" started-at="2022-03-21T16:31:02Z" depends-on-methods="test1.assignment3_with_pojo.logout" finished-at="2022-03-21T16:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4cb2c100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- test1.assignment3_with_pojo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
